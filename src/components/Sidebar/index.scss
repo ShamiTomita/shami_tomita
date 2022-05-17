@@ -1,5 +1,5 @@
 .nav-bar{
-  background: #659157;
+  background: #A2AB6A ;
   width: 100px;
   height: 100%;
   position: absolute;
@@ -35,7 +35,7 @@
 
     a{
       font-size: 22px;
-      color: #A1C084;
+      color: #D4D4D4;
       display: block;
       line-height: 51px;
       position: relative;
@@ -45,7 +45,7 @@
         transition: all 0.5s ease-out;
       }
       &:hover{
-        color: #BBD1EA;
+        color: #F5EEE5 ;
 
         svg{
           opacity: 0;
@@ -85,10 +85,15 @@
         content:'CONTACT';
       }
     }
+    a.projects-link{
+      &:after{
+        content:'PROJECTS';
+      }
+    }
 
     a.active{
       svg{
-        color:#9C86D3;
+        color:#F5EEE5 ;
       }
     }
   }
@@ -111,7 +116,7 @@
         line-height: 16px;
 
         &:hover svg{
-          color: #9C86D3;
+          color: #F5EEE5;
         }
       }
     }
