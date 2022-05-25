@@ -17,7 +17,13 @@ const About = () => {
         </div>
       </div>
       <div className="container about-content">
-        <div><h1>hiiiiiiiiii</h1></div>
+        <div>
+          <h1>hiiiiiiiiii</h1>
+          <h1>hiiiiiiiiii</h1>
+          <h1>hiiiiiiiiii</h1>
+
+
+        </div>
       </div>
     </>
   )
