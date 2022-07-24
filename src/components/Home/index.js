@@ -39,6 +39,9 @@ const Home = () => {
             CONTACT ME
           </Link>
         </div>
+        <div className="container cakes">
+          <img src="public/cakes.jpg" alt="cakes"/>
+        </div>
       </div>
 
       <Loader type="pacman" />
