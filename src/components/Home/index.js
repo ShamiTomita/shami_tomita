@@ -40,7 +40,7 @@ const Home = () => {
           </Link>
         </div>
         <div className="container cakes">
-          <img src="public/cakes.jpg" alt="cakes"/>
+          <img src="/Users/shamitomita/Projects/shami_tomita/public/cakes.jpg" alt="cakes"/>
         </div>
       </div>
 
